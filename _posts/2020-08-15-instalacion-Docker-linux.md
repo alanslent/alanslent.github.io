@@ -3,6 +3,7 @@ layout: post
 title: Instalación de Docker en Linux
 ---
 
+Instalación de una de las herramientas más importantes en el proceso de desarrollo de software.
 
 ## ¿Qué es Docker?
 
@@ -65,6 +66,18 @@ Instalamos Docker
 $ sudo apt-get update
 $ sudo apt-get install docker-ce
 ```
+
+## Ejecutar Docker si ser super usuario
+
+Cuando ejecutamos docker por primera vez, cualquier comando que ejecutemos (por ejemplo `docker ps -a`) nos estará indicando que no tenemos permisos para ejecutarlo, con un mensaje como: `Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock:`.
+
+Para corregir esto, ejecutamos el siguiente comando
+
+```bash
+$ sudo usermod -aG docker ${USER}
+```
+
+Hecho esto, deberemos cerrar la sesión y volver a inciarla.
 
 ## Habilitar acceso remoto por TCP
 
@@ -217,4 +230,10 @@ ver logs de un contenedor
 
 ```bash
 docker logs -f tomcat-9.0.22
+```
+
+ver la ip de un contenedor
+
+```bash
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
 ```

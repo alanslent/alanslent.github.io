@@ -24,8 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog de temas de programación
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alanslent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  alanslent
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://avatars2.githubusercontent.com/u/1161748?s=460&u=ee80a3bf3e4e5ccea38f503293a1a132a9f4943f&v=4
+
+
 
 # Build settings
 theme: jekyll-theme-midnight
@@ -69,3 +72,9 @@ defaults:
     values:
       is_post: false
       layout: default
+
+  - 
+    scope:
+      path: "assets/images"
+    values:
+      image: true
