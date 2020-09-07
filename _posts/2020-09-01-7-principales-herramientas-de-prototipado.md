@@ -1,4 +1,10 @@
-En el mercado existen varias herramientas útiles en el proceso de desarrollo de aplicaciones, para cada fase del proyecto podemos encontrar distintas herramientas que podemos utilizar. Una de las fases más importantes en la planeación de nuestra aplicación es la generación de wireframes. Un wireframe es un esquema de la página, éste nos muestra los distintos compoenentes que se encontrarán en pantalla y cómo estarán funcionando entre ellos.
+---
+layout: post
+title: 7 principales herramientas de prototipado
+---
+
+
+En el mercado existen varias herramientas útiles en el proceso de desarrollo de aplicaciones, para cada fase del proyecto podemos encontrar distintas herramientas que podemos utilizar. Una de las fases más importantes en la planeación de nuestra aplicación es la generación de wireframes. Un wireframe es un esquema de la página, éste nos muestra los distintos componentes que se encontrarán en pantalla y cómo estarán funcionando entre ellos.
 
 Estas son algunas de las herramientas de wireframes que se pueden encontrar actualmente y que considero son las más importantes:
 
