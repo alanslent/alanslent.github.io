@@ -49,8 +49,11 @@ En este mismo blog encontrarás un post sobre las metodologías ágiles [aquí](
 
 Para este proyecto utilizaremos un sistema basado en scrum y kanban (o scrumban), por lo que definiremos un backlog de macroactividades por realizar, para por cada una de ellas definir el análisis, diseño e implementación.
 
-**Backlog**
+Utilizaremos para ello un herramienta que me gusta mucho y que se llama [Trello](https://trello.com). Esta nos ayudará a visualizar el proceso de desarrollo de nuestra aplicación con base en tarjetas, como con Kanban.
 
+Las tareas principales se encuentran en Backlog, mientras que, el detalle para lograr completar esa macro-tarea la colocaré en "Cosas que hacer".
+
+![](/assets/images/creacionAplicacion/trello_actividad1.png)
 
 
 
