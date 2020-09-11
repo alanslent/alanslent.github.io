@@ -374,7 +374,7 @@ Ahí podemos ver un detalle, con la descripción general que arreglaremos más a
 
 ![](/assets/images/creacionAplicacion/runApp04_endpoints.png)
 
-En caso de que no estes usando IntelliJ, como una aplicación vamen, lo podemos ejecutar desde la terminal.
+En caso de que no estes usando IntelliJ, como una aplicación maven, lo podemos ejecutar desde la terminal.
 
 ```bash
 mvn clean install
